@@ -1,0 +1,84 @@
+
+.homePage, .homeSection{
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+}
+.error{
+  font-size: 100px;
+}
+.notFound{
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+.designBuildPageSection{
+  background-image: url("../assets/designBuild.jpg");
+  height: 1503px;
+  width: 100%;
+  object-fit: cover;
+  background-size: cover;
+}
+.designBuildPageText{
+  background-color: #ffde594a;
+  width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: inherit;
+    margin: auto;
+    padding-top: 85px;
+    padding-bottom: 100px;
+}
+
+.servicesSection{
+  width: 85%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: inherit;
+    margin: auto;
+    padding-top: 85px;
+    padding-bottom: 100px;
+}
+
+.servicesLogo{
+  width: 120px;
+  margin-bottom: 22px;
+  margin-top: -500px;
+}
+
+.servicesSectionText{
+  background-color: #ffde594a;
+  padding: 30px;
+  margin-bottom: 40px;
+
+}
+
+
+
+.designbuiledPicture, .servicesPicture{
+  width: -webkit-fill-available;
+  object-fit: cover;
+}
+
+.servicesSection {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width:1350px)and (min-width:0px){
+  .servicesSection {
+    justify-content: center;
+  }
+
+  .servicesSection {
+    padding-top: 40px;
+}
+.servicesSectionText {
+  width: 70%;
+  
+}
+}

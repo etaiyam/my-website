@@ -1,0 +1,11 @@
+.servicesSectionText {
+    width: 55%;
+}
+
+
+/*Responsive*/
+@media screen and (max-width: 1350px) {
+    .servicesSectionText {
+        width: 100%;
+    }
+}
